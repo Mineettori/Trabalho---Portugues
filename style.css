@@ -75,12 +75,15 @@ body {
 }
 
 .card-image img {
-    transition: transform 0.1s ease-in-out;
     width: 310px;
     height: 210px;
 }
 
-.card-image:hover img {
+img {
+    transition: transform 0.1s ease-in-out;
+}
+
+img:hover {
     transform: scale(1.1);
 }
 
